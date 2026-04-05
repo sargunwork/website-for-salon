@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATEST SALON | Premium Haircuts & Styling</title>
+    <meta name="description" content="Premium salon experience at budget-friendly pricing in Ahmedabad. Expert stylists, precision haircuts, and personalized consultation.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Advanced Features: Custom Cursor & Scroll Progress -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#">LATEST<span>SALON</span></a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="header-cta">
+                <a href="tel:07940086535" class="btn btn-outline call-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    079 4008 6535
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a href="#booking" class="btn btn-primary">Book Appointment</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="trust-badge animate-up fade-in">
+                    <div class="stars">
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                    </div>
+                    <span>4.8 Rating | 3500+ Happy Clients</span>
+                </div>
+                
+                <h1 class="animate-up fade-in delay-1">Get Your Perfect Look — <span>Every Time</span></h1>
+                <p class="animate-up fade-in delay-2">Premium Haircuts & Styling in Ahmedabad at Budget-Friendly Prices. Walk in unsure, walk out confident.</p>
+                
+                <div class="hero-actions animate-up fade-in delay-3">
+                    <a href="#booking" class="btn btn-primary magnetic-btn">Book Appointment</a>
+                    <a href="tel:07940086535" class="btn btn-secondary call-now magnetic-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Animated Trust Banner -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>✦ Premium Grooming</span>
+                <span>✦ 4.8 Star Rated</span>
+                <span>✦ Expert Stylists</span>
+                <span>✦ 3500+ Happy Clients</span>
+                <span>✦ Luxury Experience</span>
+                <span>✦ Precision Cuts</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>✦ Premium Grooming</span>
+                <span>✦ 4.8 Star Rated</span>
+                <span>✦ Expert Stylists</span>
+                <span>✦ 3500+ Happy Clients</span>
+                <span>✦ Luxury Experience</span>
+                <span>✦ Precision Cuts</span>
+            </div>
+        </div>
+
+        <!-- Section 2: Services -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="eyebrow">Expert Grooming</span>
+                    <h2>Our Premium Services</h2>
+                    <p>Designed to enhance your personal style with precision and care.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2Z"/><path d="M18 10a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2Z"/><path d="M14 6h0a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V6Z"/></svg>
+                        </div>
+                        <h3>Haircuts</h3>
+                        <p>Precision cuts tailored to your face shape and personal style. For both men and women.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card fade-in delay-1">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M22 12H2"/><path d="m19 5-3.5 3.5"/><path d="m5 19 3.5-3.5"/><path d="m5 5 3.5 3.5"/><path d="m19 19-3.5-3.5"/></svg>
+                        </div>
+                        <h3>Hair Coloring</h3>
+                        <p>Vibrant, long-lasting color transformations ranging from subtle highlights to complete changes.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card fade-in delay-2">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5Z"/><path d="M12 2A10 10 0 0 0 2 12h20A10 10 0 0 0 12 2Z"/></svg>
+                        </div>
+                        <h3>Hair Styling</h3>
+                        <p>Perfect styling for any occasion, ensuring you look your absolute best.</p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card fade-in delay-1">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12a10.5 10.5 0 1 1 21 0c0 5-5 9.5-10.5 9.5S2.5 17 2.5 12Z"/></svg>
+                        </div>
+                        <h3>Hair Spa</h3>
+                        <p>Deep conditioning and relaxing spa treatments extending the health of your hair.</p>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="service-card fade-in delay-2">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+                        </div>
+                        <h3>Consultation</h3>
+                        <p>One-on-one style advice with our experts to find the perfect look for your personality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Why Choose Us -->
+        <section class="why-us" id="about">
+            <div class="container why-us-content">
+                <div class="why-us-text fade-in">
+                    <span class="eyebrow">Unmatched Quality</span>
+                    <h2>More Than Just a Haircut</h2>
+                    <p class="subtitle">Experience a friendly and highly professional atmosphere. We're proud to bring premium salon culture to Ahmedabad at budget-friendly pricing.</p>
+                    
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-bullet">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="feature-text">
+                                <strong>Expert Stylists</strong>
+                                <span>Professionals who understand your unique style and needs.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-bullet">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="feature-text">
+                                <strong>Budget-Friendly Pricing</strong>
+                                <span>Premium feel without the premium price tag.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-bullet">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <div class="feature-text">
+                                <strong>Trusted by Thousands</strong>
+                                <span>Over 3500+ satisfied customers with proven trust.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Visual Placeholder - can just be a nice textured background or another image -->
+                <div class="why-us-visual fade-in delay-1">
+                    <div class="stat-box">
+                        <h3>3500+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>4.8</h3>
+                        <p>Star Rating</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>100%</h3>
+                        <p>Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Reviews -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="eyebrow">Testimonials</span>
+                    <h2>Hear From Our Clients</h2>
+                </div>
+
+                <div class="reviews-grid">
+                    <!-- Review 1 -->
+                    <div class="review-card fade-in delay-1">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Got my perfect pixie cut — truly skilled professionals."</p>
+                        <div class="reviewer">
+                            <strong>Priya Sharma</strong>
+                        </div>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="review-card fade-in delay-2">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"They guide you before the haircut — amazing results."</p>
+                        <div class="reviewer">
+                            <strong>Rahul Desai</strong>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-card fade-in delay-3">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"Best salon experience at this price range. Highly recommend it."</p>
+                        <div class="reviewer">
+                            <strong>Anjali Patel</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Booking Form -->
+        <section class="booking-section" id="booking">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <span class="eyebrow">Reservation</span>
+                    <h2>Book Your Appointment</h2>
+                    <p>Secure your slot instantly. Our stylists are ready for you.</p>
+                </div>
+                
+                <div class="booking-form-container fade-in delay-1">
+                    <form id="appointment-form" class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="Haircut">Men/Women Haircut</option>
+                                <option value="Hair Coloring">Hair Coloring</option>
+                                <option value="Hair Styling">Hair Styling</option>
+                                <option value="Hair Spa">Hair Spa / Deep Conditioning</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+
+                        <div id="estimated-price" class="estimated-price">
+                            <span>Estimated Price:</span>
+                            <strong id="price-value">Select a service...</strong>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary full-width submit-btn magnetic-btn">
+                            Confirm Booking
+                        </button>
+                        
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Contact & Location / Final CTA -->
+        <section class="contact-cta" id="contact">
+            <div class="container contact-container fade-in">
+                <div class="contact-info">
+                    <h2>Ready for Your Next Look?</h2>
+                    <p class="urgency">Limited slots available today. Book your appointment now and walk out confident.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <div>
+                                <strong>Location</strong>
+                                <p>1st Floor, Shanti Arcade, Near Jaymangal BRTS, Naranpura, Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            <div>
+                                <strong>Working Hours</strong>
+                                <p>Open daily, closes at 9 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <div>
+                                <strong>Call Us</strong>
+                                <p>079 4008 6535</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-group">
+                        <a href="#booking" class="btn btn-primary magnetic-btn">Book Appointment Now</a>
+                        <a href="tel:07940086535" class="btn btn-outline magnetic-btn">Call Salon</a>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <!-- Embedded Google Map targeting Ahmedabad, Naranpura area -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d3671.3969137025255!2d72.54805721535496!3d23.04505498494165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f5aaaaaaab%3A0x1111111111111111!2sShanti%20Arcade!5e0!3m2!1sen!2sin!4v1684499000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>LATEST<span>SALON</span></h2>
+                <p>Confidence transformation through the perfect haircut. Walk in unsure, walk out confident.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#booking">Book Appointment</a>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Latest Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="#booking" class="btn btn-primary full-width">Book Appointment</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
